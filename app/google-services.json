@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "795429160815",
+    "project_id": "atom-d613a",
+    "storage_bucket": "atom-d613a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795429160815:android:87a6bd33ccf002bdfcca9a",
+        "android_client_info": {
+          "package_name": "com.shivank.atomassingment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795429160815-8o5i2t108rhfvmmcna4f3i4iachnsoa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc1AUDfcVpUgLdppiHAuoFka30wKUUqWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795429160815-8o5i2t108rhfvmmcna4f3i4iachnsoa6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

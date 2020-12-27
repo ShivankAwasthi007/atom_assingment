@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#f5facf"
+    tools:context=".Splash_Activity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATOM"
+        android:textSize="45dp"
+        android:id="@+id/splash_atom_text"
+        android:textColor="#000000"
+        android:layout_margin="6dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:padding="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splash_linear"
+        android:layout_below="@+id/splash_atom_text"
+        android:weightSum="2"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Wellness"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:text=", Simplified"/>
+    </LinearLayout>
+
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="match_parent"
+        android:id="@+id/progress_bar_splash"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash_linear"
+        android:visibility="visible"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        app:showAnimationBehavior="none"
+        android:indeterminate="true" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
